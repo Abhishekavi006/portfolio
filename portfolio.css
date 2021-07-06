@@ -123,5 +123,33 @@ header{
 header nav .left a{
     color: blanchedalmond;
     text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
 
+}
+ header nav .left a:hover{
+     color: tomato;
+ }
+header nav{
+    padding: 2rem 0;
+} 
+section.about{
+    padding: 6rem 0;
+}
+section.about h2{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h2 span{
+    color: tomato;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.contain{
+    max-width: 1152px;
+    padding: 0 15px;
 }
